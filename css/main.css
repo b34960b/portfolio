@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* main.css */
+#wrap { width: 100%; height: 100%; }
+
+/* common.css */
+#headBox { position: fixed; top: 0; left: 0; z-index: 1; width: 100%; height: 50px; background-color: #fff; }
+
+#headBox h1 { float: left; margin-left: 100px; width: 56px; height: 100%; }
+
+#headBox h1 a { display: block; width: 100%; height: 100%; font-size: 27px; color: #353339; text-transform: uppercase; line-height: 54px; }
+
+#headBox nav { float: right; margin-right: 100px; width: 400px; height: 100%; }
+
+#headBox nav ul { width: 100%; height: 100%; }
+
+#headBox nav ul li { display: inline-block; width: 24%; height: 100%; }
+
+#headBox nav ul li a { display: block; width: 100%; height: 100%; font-size: 16px; color: #353339; letter-spacing: 0.5px; padding: 15px 0; box-sizing: border-box; text-align: center; text-transform: capitalize; line-height: 23px; }
+
+#headBox nav ul li a:hover, #headBox nav ul li a:focus { color: #9f447a; }
+
+#viewBox { position: relative; width: 100%; height: 100vh; background-color: #fff; }
+
+#viewBox .viewInside { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 70%; height: 50%; }
+
+#viewBox .viewInside p { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 54px; color: #353339; word-break: keep-all; text-align: center; box-sizing: border-box; font-weight: 500; }
+
+#viewBox .scroll-ani { position: absolute; bottom: 5%; left: 50%; transform: translateX(-50%); width: 24px; height: 37px; }
+
+#viewBox .scroll-ani .mouse { position: relative; display: block; width: 100%; height: 100%; border-radius: 23px; border: 1px solid #353339; box-sizing: border-box; }
+
+#viewBox .scroll-ani .mouse span { position: absolute; display: block; top: 3px; left: 50%; transform: translateX(-50%); width: 5px; height: 5px; border-radius: 50%; background-color: #353339; animation: mousemoving 2s linear infinite; }
+
+@keyframes mousemoving { 0% { opacity: 1;
+    top: 25%; }
+  15% { opacity: 1;
+    top: 50%; }
+  50% { opacity: 0;
+    top: 50%; }
+  100% { opacity: 0;
+    top: 25%; } }
+
+#viewBox .scroll-ani p { position: absolute; top: 45px; left: 50%; transform: translateX(-50%); font-size: 13px; text-align: center; letter-spacing: 0.5px; }
+
+#conBox { position: relative; width: 100%; height: 100vh; background-color: #f6f1f2; }
+
+#conBox .conInside { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; height: 50%; }
+
+#conBox .conInside h2 { margin-top: 35px; padding: 20px; font-size: 40px; color: #353339; box-sizing: border-box; text-align: center; text-transform: capitalize; }
+
+#conBox .conInside h2::after, #conBox .conInside h2:after { display: block; content: " "; clear: both; margin: auto; width: 190px; height: 3px; background-color: #353339; }
+
+#conBox .conInside .conText { position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 50%; height: 60%; }
+
+#conBox .conInside .conText p { text-align: center; font-size: 15px; color: #353339; line-height: 25px; }
+
+#conBox .conInside .conText p span { line-height: 50px; font-size: 26px; text-transform: uppercase; }
+
+#conBox .conInside .conText p:nth-child(2) { margin-top: 60px; font-weight: 600; }
+
+#conBox .conInside .conText p:nth-child(3), #conBox .conInside .conText p:nth-child(4), #conBox .conInside .conText p:nth-child(5) { font-weight: 600; }
+
+#con-subBox { position: relative; width: 100%; height: 100vh; background-color: #fff; }
+
+#con-subBox .subInside { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; height: 80%; }
+
+#con-subBox .subInside h2 { margin-top: 30px; padding: 20px; font-size: 40px; color: #353339; box-sizing: border-box; text-align: center; text-transform: capitalize; }
+
+#con-subBox .subInside h2::after, #con-subBox .subInside h2:after { display: block; content: " "; clear: both; margin: auto; width: 130px; height: 3px; background-color: #353339; }
+
+#con-subBox .subInside .experience { position: absolute; left: 0; top: 140px; width: 49%; height: 39%; padding: 15px; box-sizing: border-box; background-color: #f6f1f2; }
+
+#con-subBox .subInside .education { position: absolute; right: 0; top: 140px; width: 49%; height: 39%; padding: 15px; box-sizing: border-box; background-color: #f6f1f2; }
+
+#con-subBox .subInside .skill { position: absolute; bottom: 0; width: 100%; height: 39%; padding: 15px; box-sizing: border-box; background-color: #f6f1f2; }
+
+#con-subBox .subInside .skill .skillBox { position: relative; width: 100%; height: 85%; }
+
+#con-subBox .subInside .skill .skillBox .l-skillBox { position: absolute; left: 0; width: 47%; height: 100%; padding-top: 15px; box-sizing: border-box; }
+
+#con-subBox .subInside .skill .skillBox .l-skillBox li { margin-top: 10px; width: 100%; height: 20%; }
+
+#con-subBox .subInside .skill .skillBox .l-skillBox li h3 { margin-bottom: 5px; font-size: 15px; font-weight: normal; color: #353339; }
+
+#con-subBox .subInside .skill .skillBox .l-skillBox li .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
+
+#con-subBox .subInside .skill .skillBox .l-skillBox li .progressBar::after, #con-subBox .subInside .skill .skillBox .l-skillBox li .progressBar:after { display: block; content: " "; width: 85%; height: 100%; background-color: #d88; }
+
+#con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(2) .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
+
+#con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(2) .progressBar::after, #con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(2) .progressBar:after { display: block; content: " "; width: 85%; height: 100%; background-color: #d88; }
+
+#con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(3) .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
+
+#con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(3) .progressBar::after, #con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(3) .progressBar:after { display: block; content: " "; width: 70%; height: 100%; background-color: #d88; }
+
+#con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(4) .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
+
+#con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(4) .progressBar::after, #con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(4) .progressBar:after { display: block; content: " "; width: 70%; height: 100%; background-color: #d88; }
+
+#con-subBox .subInside .skill .skillBox .r-skillBox { position: absolute; right: 0; width: 47%; height: 100%; padding-top: 15px; box-sizing: border-box; }
+
+#con-subBox .subInside .skill .skillBox .r-skillBox li { position: relative; margin-top: 10px; width: 100%; height: 20%; }
+
+#con-subBox .subInside .skill .skillBox .r-skillBox li h3 { margin-bottom: 5px; font-size: 15px; font-weight: normal; color: #353339; }
+
+#con-subBox .subInside .skill .skillBox .r-skillBox li .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
+
+#con-subBox .subInside .skill .skillBox .r-skillBox li .progressBar::after, #con-subBox .subInside .skill .skillBox .r-skillBox li .progressBar:after { display: block; content: " "; width: 65%; height: 100%; background-color: #d88; }
+
+#con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(2) .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
+
+#con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(2) .progressBar::after, #con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(2) .progressBar:after { display: block; content: " "; width: 75%; height: 100%; background-color: #d88; }
+
+#con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(3) .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
+
+#con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(3) .progressBar::after, #con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(3) .progressBar:after { display: block; content: " "; width: 75%; height: 100%; background-color: #d88; }
+
+#con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(4) .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
+
+#con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(4) .progressBar::after, #con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(4) .progressBar:after { display: block; content: " "; width: 80%; height: 100%; background-color: #d88; }
+
+#con-subBox .subInside .con-subText { display: inline-block; width: auto; height: 30px; line-height: 33px; padding-left: 8px; padding-right: 8px; box-sizing: border-box; text-transform: capitalize; background-color: #deb3b6; color: #fff; }
+
+#con-subBox .subInside .con-subMain { width: 100%; height: calc(100% - 30px); margin-left: 5px; padding-top: 25px; box-sizing: border-box; }
+
+#con-subBox .subInside .con-subMain p { font-size: 15px; margin-bottom: 20px; line-height: 24px; color: #353339; }
+
+#con-subBox .subInside .con-subMain p span { font-size: 17px; }
+
+#con-subBox .subInside .con-subMain p:last-child { margin-top: 20px; }
+
+#galleryBox { position: relative; width: 100%; height: 100vh; background-color: #f6f1f2; }
+
+#galleryBox .galleryInside { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; height: 80%; background-color: #7aa; }
+
+#galleryBox .galleryInside h2 { margin-top: 30px; padding: 20px; font-size: 40px; color: #353339; box-sizing: border-box; text-align: center; text-transform: capitalize; }
+
+#galleryBox .galleryInside h2::after, #galleryBox .galleryInside h2:after { display: block; content: " "; clear: both; margin: auto; width: 170px; height: 3px; background-color: #353339; }
+
+#galleryBox .galleryInside ​.slideZone { position: absolute; bottom: 0; width: 300%; height: 80%; background-color: #89a; }
+
+#galleryBox .galleryInside ​.slideZone .slide { float: left; width: 33.33333%; height: 100%; background-color: #8a9; }
+
+#footBox { width: 100%; height: 210px; background-color: #fff; }
+
+#footBox .footInside { margin: auto; width: 50%; height: 100%; }
+
+#footBox .footInside p { padding-top: 60px; box-sizing: border-box; text-align: center; font-size: 25px; color: #353339; font-weight: bold; letter-spacing: 0.5px; }
+
+#footBox .footInside p:nth-child(2) { padding-top: 0; padding-bottom: 0; }
+
+#footBox .footInside p:last-child { padding-top: 20px; font-size: 12px; font-weight: normal; }
