@@ -137,45 +137,55 @@
 
 #galleryBox .galleryInside h2::after, #galleryBox .galleryInside h2:after { display: block; content: " "; clear: both; margin: auto; width: 170px; height: 3px; background-color: #353339; }
 
-#galleryBox .galleryInside .slideZone { position: absolute; bottom: 0; width: 300%; height: 77%; background-color: #80a; }
+#galleryBox .galleryInside .arrow-left { position: absolute; top: 55%; left: -30%; transition: .24s; padding: 24px; box-shadow: 1px -1px 0 1px #deb3b6 inset; transform: rotate(45deg); }
 
-#galleryBox .galleryInside .slideZone .slide { overflow: hidden; float: left; width: 33.333333%; height: 100%; }
+#galleryBox .galleryInside .arrow-left:hover { box-shadow: 2px -2px 0 2px #d88 inset; }
 
-#galleryBox .galleryInside .slideZone .slide .imgBox { float: left; width: 50%; height: 100%; }
+#galleryBox .galleryInside .arrow-right { position: absolute; top: 55%; left: 123%; border: solid transparent; border-width: 0 0 35px 35px; transition: .24s; padding: 24px; box-shadow: 1px -1px 0 1px #deb3b6 inset; transform: rotate(225deg); }
 
-#galleryBox .galleryInside .slideZone .slide .img-01 { background-image: url(../../img/amore.jpg); background-repeat: no-repeat; background-position: 35% 50%; background-size: cover; }
+#galleryBox .galleryInside .arrow-right:hover { box-shadow: 2px -2px 0 2px #d88 inset; }
 
-#galleryBox .galleryInside .slideZone .slide .img-02 { background-image: url(../../img/boucheron.jpg); background-repeat: no-repeat; background-position: 35% 50%; background-size: cover; }
+#galleryBox .galleryInside .slidewrap { position: absolute; bottom: 0; overflow: hidden; width: 100%; height: 77%; }
 
-#galleryBox .galleryInside .slideZone .slide .img-03 { background-image: url(../../img/loccitane.jpg); background-position: 20% 50%; background-repeat: no-repeat; background-size: cover; }
+#galleryBox .galleryInside .slidewrap .slideZone { width: 300%; height: 100%; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox { float: right; width: 50%; height: 100%; background-color: #fff; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide { float: left; width: 33.333333%; height: 100%; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul { position: relative; width: 100%; height: 90%; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .imgBox { float: left; width: 50%; height: 100%; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul li { padding: 70px 30px; box-sizing: border-box; width: 100%; height: 100%; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .img-01 { background-image: url(../../img/amore.jpg); background-repeat: no-repeat; background-position: 35% 50%; background-size: cover; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul li p { text-transform: uppercase; font-size: 38px; font-weight: 400; word-spacing: 1px; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .img-02 { background-image: url(../../img/boucheron.jpg); background-repeat: no-repeat; background-position: 35% 50%; background-size: cover; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul li p:nth-child(2) { position: relative; font-weight: 300; font-size: 32px; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .img-03 { background-image: url(../../img/loccitane.jpg); background-position: 20% 50%; background-repeat: no-repeat; background-size: cover; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul li p:nth-child(2)::after, #galleryBox .galleryInside .slideZone .slide .textBox ul li p:nth-child(2):after { display: block; content: " "; clear: both; position: absolute; top: 75px; width: 30%; height: 1px; background-color: #363636; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox { float: right; width: 50%; height: 100%; background-color: #fff; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul li p:nth-child(3) { font-size: 15px; margin-top: 80px; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul { position: relative; width: 100%; height: 90%; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul li p:nth-child(4) { font-size: 15px; margin-top: 15px; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul li { padding: 70px 30px; box-sizing: border-box; width: 100%; height: 100%; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul li p:nth-child(5) { font-size: 15px; margin-top: 15px; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul li p { text-transform: uppercase; font-size: 38px; font-weight: 400; word-spacing: 1px; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul .btn { position: absolute; bottom: 0; left: 33%; transform: translateX(-50%); width: 50%; height: 50px; border: 1px solid #deb3b6; transition: all 0.4s; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul li p:nth-child(2) { position: relative; font-weight: 300; font-size: 32px; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul .btn a { display: block; width: 100%; font-size: 20px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; letter-spacing: 1px; line-height: 50%; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul li p:nth-child(2)::after, #galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul li p:nth-child(2):after { display: block; content: " "; clear: both; position: absolute; top: 75px; width: 30%; height: 2px; background-color: #deb3b6; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul .btn a:after { content: " "; width: 0%; height: 100%; position: absolute; top: 0; left: 0; background: linear-gradient(to right, #dedede, #d88); transition: all 0.4s; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul li p:nth-child(3) { font-size: 15px; margin-top: 80px; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul .btn a:hover { color: #fff; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul li p:nth-child(4) { font-size: 15px; margin-top: 15px; }
 
-#galleryBox .galleryInside .slideZone .slide .textBox ul .btn a:hover:after { width: 100%; z-index: -1; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul li p:nth-child(5) { font-size: 15px; margin-top: 15px; }
+
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul .btn { position: absolute; bottom: 0; left: 33%; transform: translateX(-50%); width: 50%; height: 50px; border: 1px solid #deb3b6; transition: all 0.4s; }
+
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul .btn a { display: block; width: 100%; font-size: 20px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; letter-spacing: 1px; line-height: 50%; }
+
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul .btn a:after { content: " "; width: 0%; height: 100%; position: absolute; top: 0; left: 0; background: linear-gradient(to right, #dedede, #d88); transition: all 0.4s; }
+
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul .btn a:hover { color: #fff; }
+
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul .btn a:hover:after { width: 100%; z-index: -1; }
 
 #footBox { width: 100%; height: 210px; background-color: #fff; }
 
