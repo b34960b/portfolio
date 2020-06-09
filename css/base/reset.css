@@ -52,12 +52,12 @@ button {
   background-color: transparent; 
   border:1px solid #fa0;
 }
-button:hover {
+/* button:hover {
   background-color:#2edce2;
 }
 button:focus {
   border:1px solid #2edce2;
-}
+} */
 
 hr {
   margin: 0; 
