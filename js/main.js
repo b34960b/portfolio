@@ -1,16 +1,19 @@
 (function($){
 
-  // const imgBox = $('.imgBox');
-  // const rImgBox = imgBox.find('.r-imgBox');
-  // const rTextArea = $('.r-textArea');
+  const slideWrap = $('.slidewrap');
+  const slideZone = $('.slideZone');
+  let slideleng = slideZone.children('.slide');
 
-  // rImgBox.on('mouseenter', function(){
-  //   rTextArea.css({'display':'block'});
-  //   rTextArea.animate({'transition': 'all 500ms ease'});
-  // });
-  // rImgBox.on('mouseleave', function(){
-  //   rTextArea.css({display:'none'});
-  // });
+  // slideleng.eq(-1).clone().prependTo(slideZone);
+
+  let i = 0;
+  const timed = 5000;
+
+    setInterval(function(){
+      i++;
+      if (i>slideleng.length-1){i=0; slideZone.css({marginLeft:100+'%'})}
+      slideZone.stop().animate({marginLeft:(-100*i)+'%'});
+    },timed);
 
 
 
