@@ -41,6 +41,8 @@
 
 #viewBox .scroll-ani p { position: absolute; top: 45px; left: 50%; transform: translateX(-50%); font-size: 13px; text-align: center; letter-spacing: 0.5px; }
 
+#viewBox .fixed-bar { position: fixed; z-index: 10; right: 0; top: 50%; transform: translateY(-50%); width: 40px; height: 110px; background-color: #deb3b6; border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+
 #conBox { position: relative; width: 100%; height: 100vh; background-color: #f6f1f2; }
 
 #conBox .conInside { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; height: 50%; }
@@ -141,15 +143,15 @@
 
 #galleryBox .galleryInside .arrow-left:hover { box-shadow: 2px -2px 0 2px #d88 inset; }
 
-#galleryBox .galleryInside .arrow-right { position: absolute; top: 55%; left: 123%; border: solid transparent; border-width: 0 0 35px 35px; transition: .24s; padding: 24px; box-shadow: 1px -1px 0 1px #deb3b6 inset; transform: rotate(225deg); }
+#galleryBox .galleryInside .arrow-right { position: absolute; top: 55%; left: 123%; transition: .24s; padding: 24px; box-shadow: 1px -1px 0 1px #deb3b6 inset; transform: rotate(225deg); }
 
 #galleryBox .galleryInside .arrow-right:hover { box-shadow: 2px -2px 0 2px #d88 inset; }
 
 #galleryBox .galleryInside .slidewrap { position: absolute; bottom: 0; overflow: hidden; width: 100%; height: 77%; }
 
-#galleryBox .galleryInside .slidewrap .slideZone { width: 300%; height: 100%; }
+#galleryBox .galleryInside .slidewrap .slideZone { position: relative; left: -100%; width: 400%; height: 100%; }
 
-#galleryBox .galleryInside .slidewrap .slideZone .slide { float: left; width: 33.333333%; height: 100%; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide { float: left; width: 25%; height: 100%; }
 
 #galleryBox .galleryInside .slidewrap .slideZone .slide .imgBox { float: left; width: 50%; height: 100%; }
 
