@@ -155,11 +155,11 @@
 
 #galleryBox .galleryInside .slidewrap .slideZone .slide .imgBox { float: left; width: 50%; height: 100%; }
 
-#galleryBox .galleryInside .slidewrap .slideZone .slide .img-01 { background-image: url(../../img/amore.jpg); background-repeat: no-repeat; background-position: 35% 50%; background-size: cover; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .img-01 { background-image: url(../img/amore.jpg); background-repeat: no-repeat; background-position: 35% 50%; background-size: cover; }
 
-#galleryBox .galleryInside .slidewrap .slideZone .slide .img-02 { background-image: url(../../img/boucheron.jpg); background-repeat: no-repeat; background-position: 35% 50%; background-size: cover; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .img-02 { background-image: url(../img/boucheron.jpg); background-repeat: no-repeat; background-position: 35% 50%; background-size: cover; }
 
-#galleryBox .galleryInside .slidewrap .slideZone .slide .img-03 { background-image: url(../../img/loccitane.jpg); background-position: 20% 50%; background-repeat: no-repeat; background-size: cover; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .img-03 { background-image: url(../img/loccitane.jpg); background-position: 20% 50%; background-repeat: no-repeat; background-size: cover; }
 
 #galleryBox .galleryInside .slidewrap .slideZone .slide .textBox { float: right; width: 50%; height: 100%; background-color: #fff; }
 
