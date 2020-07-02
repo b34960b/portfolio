@@ -5,8 +5,8 @@
   let slideleng = slideZone.children('.slide');
   
   slideleng.eq(-1).clone().prependTo(slideZone);
+  slideleng = slideZone.children('.slide');
   
-  // let slideleng = slideZone.children('.slide');
   let i = 0;
   const timed = 5000;
 
