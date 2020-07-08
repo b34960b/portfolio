@@ -58,6 +58,8 @@
 
 #conBox .conInside .conText p:nth-child(3), #conBox .conInside .conText p:nth-child(4), #conBox .conInside .conText p:nth-child(5) { font-weight: 600; }
 
+#conBox .conInside .conText p a:hover { color: #9f447a; }
+
 #con-subBox { position: relative; width: 100%; height: 100vh; background-color: #fff; }
 
 #con-subBox .subInside { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; height: 80%; }
@@ -82,19 +84,19 @@
 
 #con-subBox .subInside .skill .skillBox .l-skillBox li .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
 
-#con-subBox .subInside .skill .skillBox .l-skillBox li .progressBar::after, #con-subBox .subInside .skill .skillBox .l-skillBox li .progressBar:after { display: block; content: " "; width: 85%; height: 100%; background-color: #d88; }
+#con-subBox .subInside .skill .skillBox .l-skillBox li .progressBar::after, #con-subBox .subInside .skill .skillBox .l-skillBox li .progressBar:after { display: block; content: " "; width: 75%; height: 100%; background-color: #d88; }
 
 #con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(2) .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
 
-#con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(2) .progressBar::after, #con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(2) .progressBar:after { display: block; content: " "; width: 85%; height: 100%; background-color: #d88; }
+#con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(2) .progressBar::after, #con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(2) .progressBar:after { display: block; content: " "; width: 75%; height: 100%; background-color: #d88; }
 
 #con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(3) .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
 
-#con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(3) .progressBar::after, #con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(3) .progressBar:after { display: block; content: " "; width: 70%; height: 100%; background-color: #d88; }
+#con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(3) .progressBar::after, #con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(3) .progressBar:after { display: block; content: " "; width: 50%; height: 100%; background-color: #d88; }
 
 #con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(4) .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
 
-#con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(4) .progressBar::after, #con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(4) .progressBar:after { display: block; content: " "; width: 70%; height: 100%; background-color: #d88; }
+#con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(4) .progressBar::after, #con-subBox .subInside .skill .skillBox .l-skillBox li:nth-child(4) .progressBar:after { display: block; content: " "; width: 65%; height: 100%; background-color: #d88; }
 
 #con-subBox .subInside .skill .skillBox .r-skillBox { position: absolute; right: 0; width: 47%; height: 100%; padding-top: 15px; box-sizing: border-box; }
 
@@ -104,19 +106,19 @@
 
 #con-subBox .subInside .skill .skillBox .r-skillBox li .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
 
-#con-subBox .subInside .skill .skillBox .r-skillBox li .progressBar::after, #con-subBox .subInside .skill .skillBox .r-skillBox li .progressBar:after { display: block; content: " "; width: 65%; height: 100%; background-color: #d88; }
+#con-subBox .subInside .skill .skillBox .r-skillBox li .progressBar::after, #con-subBox .subInside .skill .skillBox .r-skillBox li .progressBar:after { display: block; content: " "; width: 45%; height: 100%; background-color: #d88; }
 
 #con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(2) .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
 
-#con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(2) .progressBar::after, #con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(2) .progressBar:after { display: block; content: " "; width: 75%; height: 100%; background-color: #d88; }
+#con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(2) .progressBar::after, #con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(2) .progressBar:after { display: block; content: " "; width: 65%; height: 100%; background-color: #d88; }
 
 #con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(3) .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
 
-#con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(3) .progressBar::after, #con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(3) .progressBar:after { display: block; content: " "; width: 75%; height: 100%; background-color: #d88; }
+#con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(3) .progressBar::after, #con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(3) .progressBar:after { display: block; content: " "; width: 65%; height: 100%; background-color: #d88; }
 
 #con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(4) .progressBar { display: block; width: 100%; height: 3px; border-radius: 15px; background-color: #fff; }
 
-#con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(4) .progressBar::after, #con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(4) .progressBar:after { display: block; content: " "; width: 80%; height: 100%; background-color: #d88; }
+#con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(4) .progressBar::after, #con-subBox .subInside .skill .skillBox .r-skillBox li:nth-child(4) .progressBar:after { display: block; content: " "; width: 75%; height: 100%; background-color: #d88; }
 
 #con-subBox .subInside .con-subText { display: inline-block; width: auto; height: 30px; line-height: 33px; padding-left: 8px; padding-right: 8px; box-sizing: border-box; text-transform: capitalize; background-color: #deb3b6; color: #fff; }
 
@@ -174,7 +176,7 @@
 
 #galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul li p:nth-child(4) { font-size: 15px; margin-top: 15px; }
 
-#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul li p:nth-child(5) { font-size: 15px; margin-top: 15px; }
+#galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul li p:nth-child(5) { font-weight: 300; font-size: 15px; margin-top: 15px; text-transform: capitalize; }
 
 #galleryBox .galleryInside .slidewrap .slideZone .slide .textBox ul .btn { position: absolute; bottom: 0; left: 33%; transform: translateX(-50%); width: 50%; height: 50px; border: 1px solid #deb3b6; transition: all 0.4s; }
 

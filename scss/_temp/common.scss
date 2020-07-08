@@ -237,6 +237,9 @@
         &:nth-child(5){
           font-weight: 600;
         }
+        a:hover {
+          color: #9f447a;
+        }
       }
     }//conText
   }//conInside
@@ -345,7 +348,7 @@
               &::after,&:after {
                 display: block;
                 content: " ";
-                width: 85%;
+                width: 75%;
                 height: 100%;
                 background-color: #d88;
               }
@@ -363,7 +366,7 @@
                 &::after,&:after {
                   display: block;
                   content: " ";
-                  width: 85%;
+                  width: 75%;
                   height: 100%;
                   background-color: #d88;
                 }
@@ -382,7 +385,7 @@
                 &::after,&:after {
                   display: block;
                   content: " ";
-                  width: 70%;
+                  width: 50%;
                   height: 100%;
                   background-color: #d88;
                 }
@@ -401,7 +404,7 @@
                 &::after,&:after {
                   display: block;
                   content: " ";
-                  width: 70%;
+                  width: 65%;
                   height: 100%;
                   background-color: #d88;
                 }
@@ -447,7 +450,7 @@
               &::after,&:after {
                 display: block;
                 content: " ";
-                width: 65%;
+                width: 45%;
                 height: 100%;
                 background-color: #d88;
               }
@@ -465,7 +468,7 @@
                 &::after,&:after {
                   display: block;
                   content: " ";
-                  width: 75%;
+                  width: 65%;
                   height: 100%;
                   background-color: #d88;
                 }
@@ -484,7 +487,7 @@
                 &::after,&:after {
                   display: block;
                   content: " ";
-                  width: 75%;
+                  width: 65%;
                   height: 100%;
                   background-color: #d88;
                 }
@@ -503,7 +506,7 @@
                 &::after,&:after {
                   display: block;
                   content: " ";
-                  width: 80%;
+                  width: 75%;
                   height: 100%;
                   background-color: #d88;
                 }
@@ -710,8 +713,10 @@
                   margin-top: 15px;
                 }
                 &:nth-child(5) {
+                  font-weight: 300;
                   font-size: 15px;
                   margin-top: 15px;
+                  text-transform: capitalize;
                 }
               }
             }//li
